@@ -124,6 +124,42 @@ section{
     gap:35px;
 }
 
+.about-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.about-image{
+    flex:1;
+    min-width:320px;
+}
+
+.about-image img{
+    width:100%;
+    max-width:500px;
+    border-radius:20px;
+    display:block;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.about-text{
+    flex:1;
+    min-width:320px;
+}
+
+.about-text h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.about-text p{
+    font-size:20px;
+    line-height:1.8;
+    color:#555;
+}
 .card{
     border-radius:18px;
     overflow:hidden;
@@ -179,6 +215,15 @@ font-size:42px;
 
 .title{
 font-size:34px;
+}
+
+.about-container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.about-image img{
+    max-width:100%;
 }
 
 }
